@@ -1,64 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CodeVerse</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="main-head">
+      <h3>CodeVerse</h3>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle">
+        <i class="fa-solid fa-bars" id="icon"></i>
+      </label>
+      <ul>
+        <li>
+          <a href="#home"> Home </a>
+        </li>
+        <li>
+          <a href="#about"> About </a>
+        </li>
+        <li><a href="#"> Services </a></li>
+        <li>
+          <a href="#"> Contact </a>
+        </li>
+      </ul>
+    </nav>
 
-</head>
-<body>
-        <nav class="main-head">
-            <h3>CodeVerse</h3>
-            <ul>
-            <li>
-                <a href="#home">
-                    Home
-                </a>
-            </li>
-            <li>
-                <a href="#about">
-                    About
-                </a>
-            </li>
-            <li><a href="#">
-                Services
-            </a>
-            </li>
-            <li>
-                <a href="#">
-                    Contact
-                </a>
-            </li>
-           
-            </ul>
-              <i class="fa-solid fa-bars" id="icon"></i>
-        </nav>
-       
+    <main>
+      <div class="container" id="home">
+        <div class="card">
+          <h1>Welcome!!</h1>
+          <p id="para">Hey, welcome to this practice webpage!!</p>
+        </div>
+      </div>
 
-        <main>
-            <div class="container" id="home">
-            <div class="card">
-                <h1>Welcome!!</h1>
-                <p id="para">
-                    Hey, welcome to this practice webpage!!
-                </p>
-            </div>
-            </div>
-
-            <!--About Section-->
-            <div class="container" id="about">
-            <div class="card">
-                <h1>About CodeVerse</h1>
-                <p id="para">
-                    Hey devs!! It is the about section of the webpage. <br>
-                    I am practicing to make this page with the help of a youtube video,
-                    but instead of copying I am making everything by myself!!
-
-                </p>
-            </div>
-            </div>
-        </main>
-</body>
+      <!--About Section-->
+      <div class="container" id="about">
+        <div class="card">
+          <h1>About CodeVerse</h1>
+          <p id="para">
+            Hey devs!! It is the about section of the webpage. <br />
+            I am practicing to make this page with the help of a youtube video,
+            but instead of copying I am making everything by myself!!
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
