@@ -25,6 +25,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .main-head h3 {
@@ -69,6 +72,7 @@ li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    scroll-margin-top: 70px;
 }
 
 .card {
@@ -90,6 +94,14 @@ li a:hover {
 .card p {
     font-size: 18px;
     line-height: 1.8rem;
+}
+
+#about {
+    background-image: url("../images/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 426px) {
